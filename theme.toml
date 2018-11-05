@@ -1,6 +1,6 @@
 name = "central"
 license = "MIT"
-description = "Hugo theme based on the Tufte CSS style."
+description = "Edward Tufte-esque Hugo theme."
 homepage = "https://github.com/irfansharif/central"
 tags = ["blog"]
 features = ["responsive", "blog"]
