@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+<header>
+  <h1>{{ .Site.Title | safeHTML }}</h1>
+  {{ if .Site.Params.description }}<p class="subtitle">{{ .Site.Params.description | markdownify }}</p>{{ end }}
+</header>
+
+{{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+{{ range $paginator.Pages -}}
+  <ul>
+    {{ .Render "item" }}
+  </ul>
+{{- end }}
+
+{{ end }}
+
+{{- /* vim: set ts=2 sw=2 et: */}}

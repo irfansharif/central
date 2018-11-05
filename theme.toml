@@ -1,0 +1,11 @@
+name = "central"
+license = "MIT"
+description = "Hugo theme based on the Tufte CSS style."
+homepage = "https://github.com/irfansharif/central"
+tags = ["blog"]
+features = ["responsive", "blog"]
+min_version = 0.18
+
+[author]
+  name = "Irfan Sharif"
+  homepage = "https://irfansharif.io/"
