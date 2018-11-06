@@ -19,3 +19,18 @@ pre code { font-size: 0.9rem;
            width: 52.5%;
            margin-left: 2.5%;
            overflow-x: auto; }
+
+/* Set background to white instead of default off-white */
+body { background-color: #ffffff; }
+
+/* Within single page content, Tufte by default introduces additional spacing
+ * for section headings. */
+.single-content h1:first-child, h2:first-child, h3:first-child { padding-top: 0rem;
+                                                                 margin-top: 1.4rem; }
+
+/* Within single page content, fix width to the same width as the rest of the
+ * content for consistent time alignment */
+.single-time { width: 55%;
+               font-style: italic;
+               line-height: 1;
+               text-align: right; }
