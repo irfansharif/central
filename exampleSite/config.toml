@@ -1,0 +1,17 @@
+# Hugo variables
+#
+baseurl = "https://localhost/"
+languageCode = "en-us"
+title = "Vivamus dui Arcu"
+theme = "central"
+
+[permalinks]
+  post = "/:year/:month/:title/"
+  page = "/:slug/"
+
+# Theme variables
+[params]
+  author = "Leonardo da Vinci"
+  description = "Cras rutrum eros at lectus eleifend aliquam."
+
+# vim: ts=2 sw=2 et
