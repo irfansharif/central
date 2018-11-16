@@ -8,9 +8,9 @@
 </header>
 
 <section>
-  {{ range (where .Pages "Type" "post") -}}
+  {{ range (where .Pages "Type" "post") }}
     {{ .Render "item" }}
-  {{- end }}
+  {{ end }}
 </section>
 
 {{ end }}

@@ -2,9 +2,7 @@
 
 <header>
   <h3>
-    <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format $dateFormat }}</time> 
-    &mdash;
-    <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+    <time>{{ .Date.Format $dateFormat }}</time> &mdash; <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
   </h3>
 </header>
 

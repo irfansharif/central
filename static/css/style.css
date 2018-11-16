@@ -34,3 +34,25 @@ body { background-color: #ffffff; }
                font-style: italic;
                line-height: 1;
                text-align: right; }
+
+.nav-bar { width: 55%;
+           height: 2.5rem;
+           border-bottom: 1px solid #000;
+           overflow: hidden; }
+
+.nav-bar ul {
+  list-style-type: none;
+  margin: 0px;
+}
+
+.nav-bar li {
+  float: right;
+  padding: 0 0 0 1.1rem;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+@media (max-width: 850px) {
+  .single-time { width: 100%; }
+  .nav-bar { width: 100%; }
+}

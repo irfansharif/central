@@ -19,6 +19,13 @@
     {{ end }}
   </head>
 
+  <div class="nav-bar">
+    <ul>
+      <li><a href="{{ "/" | relURL }}">Blog</a></li>
+      <li><a href="{{ "about" | relURL }}">About</a></li>
+    </ul>
+  </div>
+
   <body>
     {{ block "main" . }}
       <!-- The part of the page that begins to differ between templates -->
