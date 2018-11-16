@@ -9,7 +9,7 @@ semper. Nam posuere lobortis velit, condimentum [ullamcorper][ullamcorper]
 lectus. Fusce nec est aliquet, scelerisque tellus eu, feugiat nibh. Nullam eget
 felis magna. Fusce id sodales eros. Etiam sed efficitur odio. Praesent
 vulputate tempor sem. Sed placerat elit in libero sodales, quis tincidunt orci
-commodo. 
+commodo.
 
     ▾ <sodoles>/
         ▾ efficitur/
@@ -21,7 +21,7 @@ metus vel sagittis tempor.
 ## Mauris mollis pretium
 
 Donec condimentum venenatis semper. Nam posuere lobortis velit, condimentum
-ullamcorper lectus. 
+ullamcorper lectus.
 
 **Fusce nec est aliquet, scelerisque tellus eu**
 
@@ -41,8 +41,8 @@ Eu hendrerit diam aliquam:
 Vestibulum elementum lacinia blandit. Ut in turpis a leo vehicula porttitor.
 Fusce at maximus odio, vel imperdiet libero. Morbi non metus nulla:
 
-* Vestibulum 
-* Ante 
+* Vestibulum
+* Ante
 * Ipsum
 
 [pretium]: http://golang.org/

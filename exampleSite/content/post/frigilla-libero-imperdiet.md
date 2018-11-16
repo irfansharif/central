@@ -120,14 +120,14 @@ blandit, eu tristique diam commodo.
 <label for="mn-demo" class="margin-toggle">&#8853;</label>
 <input type="checkbox" id="mn-demo" class="margin-toggle"/>
 <span class="marginnote">
-Class aptent taciti sociosqu ad litora torquent 
-</span> 
+Class aptent taciti sociosqu ad litora torquent
+</span>
 Curabitur odio velit, varius vel metus non, luctus aliquet ipsum. Quisque
 malesuada consequat elit eu commodo. Sed placerat massa in enim blandit, eu
 tristique diam commodo. Duis vitae dolor at nibh molestie pretium. In ut sem
 sapien. Fusce consequat lacus massa, vel elementum dolor varius vel. Curabitur
 tincidunt facilisis lorem, in aliquam erat accumsan id. Quisque nec posuere
-augue. 
+augue.
 
 ## Pretium in lacinia
 
@@ -155,7 +155,7 @@ Cras Nec Tortor Wacilisis, Ultricies Mi Suscipit
 tane 71 di Gioarra Lanceal’s <em>Moderna Ruittial</em>.</span> Nullam eu
 rhoncus purus, in ornare elit. Sed sagittis felis ante, vel lacinia odio varius
 ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-inceptos himenaeos. Quisque porta diam orci, eu rhoncus lectus venenatis a. 
+inceptos himenaeos. Quisque porta diam orci, eu rhoncus lectus venenatis a.
 
 <figure class="fullwidth">
 <img src="/img/napoleons-march.png" alt="Donec blandit venenatis nunc, ut
@@ -176,6 +176,6 @@ Quisque quis scelerisque massa. Nunc pharetra magna vel pulvinar tincidunt.
 Fusce placerat ipsum massa, non rhoncus dolor euismod ac. Phasellus tempor
 dapibus congue. Sed lacinia, libero vel dapibus eleifend, leo nisi tincidunt
 eros, non condimentum ligula sapien a dui. Proin ultricies lectus non leo
-tempus, in tempus est ullamcorper. 
+tempus, in tempus est ullamcorper.
 
 <figure><img src="/img/imagequilt-animal-sounds.png" alt="Send Lacinia, Sapien a Dui"/></figure>

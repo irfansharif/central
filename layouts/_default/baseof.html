@@ -11,8 +11,7 @@
 
     <link href="{{ .Site.BaseURL }}css/tufte.css" rel="stylesheet">
     <link href="{{ .Site.BaseURL }}css/latex.css" rel="stylesheet">
-    <!-- For custom overrides. -->
-    <link href="{{ .Site.BaseURL }}css/style.css" rel="stylesheet">
+    <link href="{{ .Site.BaseURL }}css/style.css" rel="stylesheet"> <!-- For custom overrides. -->
 
     {{ if .RSSLink }}
     {{ "<!-- RSS 2.0 feed -->" | safeHTML }}
@@ -24,7 +23,6 @@
     {{ block "main" . }}
       <!-- The part of the page that begins to differ between templates -->
     {{ end }}
-
   </body>
 
 </html>
