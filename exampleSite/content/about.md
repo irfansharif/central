@@ -1,6 +1,5 @@
 +++
-title = "Lorem Ipsum"
-description = "Morbi sit amet tristique odio"
+description = "About"
 +++
 
 Nunc tempus, mauris quis convallis vestibulum, dui quam cursus nulla, ut ornare
