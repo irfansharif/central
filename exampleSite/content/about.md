@@ -1,6 +1,4 @@
-+++
-description = "About"
-+++
+## About.
 
 Nunc tempus, mauris quis convallis vestibulum, dui quam cursus nulla, ut ornare
 arcu erat vitae mi. Quisque varius porttitor mattis. Donec ornare convallis

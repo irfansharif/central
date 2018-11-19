@@ -1,15 +1,17 @@
 {{ define "main" }}
 {{ $dateFormat := "January 03, 2006" }}
 
-<h1>{{ .Title | markdownify }}</h1>
-<p class="subtitle">
-  {{ if .Params.description }} {{ .Params.description | markdownify }} {{ end }}
-</p>
-<p class="single-time">
-  {{ if .Params.date }}
-    <time>{{ .Date.Format $dateFormat}}</time>
-  {{ end }}
-</p>
+{{ if .Title }}
+  <h1>{{ .Title | markdownify }}</h1>
+{{ end }}
+
+{{ if .Params.description }} 
+  <p class="subtitle">{{ .Params.description | markdownify }}</p>
+{{ end }}
+
+{{ if .Params.date }}
+  <p class="single-time"><time>{{ .Date.Format $dateFormat}}</time></p>
+{{ end }}
 
 <section class="single-content">
   {{ .Content }}
