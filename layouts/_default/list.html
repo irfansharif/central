@@ -8,7 +8,7 @@
 </header>
 
 <section>
-  {{ range (where .Pages "Type" "post") }}
+  {{ range (where (where .Site.Pages "Type" "post") "IsPage" true) }}
     {{ .Render "item" }}
   {{ end }}
 </section>

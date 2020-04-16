@@ -1,7 +1,7 @@
 +++
 title = "Nullam id varius lorem"
 description = "Morbi semper mi nec libero lacinia faucibus"
-date = "2014-04-02"
+date = 2014-04-02T00:00:00
 +++
 
 Mauris mollis [pretium][pretium] dui in pulvinar. Donec condimentum venenatis
