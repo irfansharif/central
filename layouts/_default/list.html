@@ -1,17 +1,17 @@
 {{ define "main" }}
 
 <header>
-  {{ if .Site.Title }}
-    <h1>{{ .Site.Title | safeHTML }}</h1>
-  {{ end }}
+  <!-- {{ if .Site.Title }} -->
+  <!--   <h1>{{ .Site.Title | safeHTML }}</h1> -->
+  <!-- {{ end }} -->
 
   {{ if .Site.Params.description }}
-    <h2 class="subtitle">{{ .Site.Params.description | markdownify }}</h2>
+    <h2 class="custom-header-padding">{{ .Site.Params.description | markdownify }}</h2>
   {{ end }}
 </header>
 
 <section>
-  {{ range (where (where .Site.Pages "Type" "post") "IsPage" true) }}
+  {{ range (where (where .Site.Pages "Type" "posts") "IsPage" true) }}
     {{ .Render "item" }}
   {{ end }}
 </section>

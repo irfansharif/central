@@ -28,7 +28,7 @@ body { background-color: #ffffff; }
 .single-content h1:first-child, h2:first-child, h3:first-child { padding-top: 0rem;
                                                                  margin-top: 1.4rem; }
 
-.single-content { padding-top: 0rem; }
+h2.custom-header-padding { padding-top: 1rem; }
 
 /* Within single page content, fix width to the same width as the rest of the
  * content for consistent time alignment */
