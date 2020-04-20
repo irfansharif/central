@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://irfansharif.io/central/2019/03/aliquet-a-felis-sed-dictum/</loc>
+    <lastmod>2019-03-26T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://irfansharif.io/central/post/</loc>
+    <lastmod>2019-03-26T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://irfansharif.io/central/</loc>
+    <lastmod>2019-03-26T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://irfansharif.io/central/2017/02/fringilla-libero-at-imperdiet/</loc>
+    <lastmod>2017-02-01T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://irfansharif.io/central/2014/04/nullam-id-varius-lorem/</loc>
+    <lastmod>2014-04-02T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://irfansharif.io/central/about/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://irfansharif.io/central/newsletter/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://irfansharif.io/central/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://irfansharif.io/central/tags/</loc>
+  </url>
+  
+</urlset>
