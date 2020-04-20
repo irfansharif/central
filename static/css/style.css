@@ -66,8 +66,9 @@ body { background-color: #ffffff; }
   color: black;
   padding: 0 12px 0 12px;
   height: 50px;
-  width: 250px;
+  width: 75%;
   text-decoration: none;
+  text-align: center;
   font-size: 16px;
   box-sizing: border-box;
 }
@@ -81,8 +82,8 @@ body { background-color: #ffffff; }
   margin-top: 5px;
   text-align: center;
   text-decoration: underline;
-  height:50px;
-  width:90px;
+  height: 50px;
+  width: 24.0%;
   font-size: 16px;
   box-sizing: border-box;
 }

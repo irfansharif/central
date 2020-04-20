@@ -1,0 +1,10 @@
+<div class="newsletter">
+  <script type="text/javascript">var submitted=false;</script>
+  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {
+    window.location.href='#';
+  }"></iframe>
+  <form class="form" action={{.Get "url"}} method="post" target="hidden_iframe" onsubmit="submitted=true;">
+    <input class="newsletter-email-input" name="emailAddress" type="email" placeholder="E-mail Address" multiple maxlength=256 required/>
+    <button class="newsletter-submit-button" type="submit">Subscribe</button>
+  </form>
+</div>

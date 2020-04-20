@@ -1,5 +1,5 @@
 # Hugo variables
-#
+
 baseurl = "https://irfansharif.io/central/"
 canonifyURLs = "true"
 languageCode = "en-us"
@@ -15,4 +15,4 @@ theme = "central"
   author = "Leonardo da Vinci"
   description = "Cras rutrum eros at lectus eleifend aliquam."
 
-# vim: ts=2 sw=2 et
+# vim: ts=2 sw=2 et ft=conf

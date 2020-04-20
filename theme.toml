@@ -9,3 +9,5 @@ min_version = 0.18
 [author]
   name = "Irfan Sharif"
   homepage = "https://irfansharif.io/"
+
+# vim: ts=2 sw=2 et ft=conf
