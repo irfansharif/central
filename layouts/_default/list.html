@@ -1,9 +1,12 @@
 {{ define "main" }}
 
 <header>
-  <h1>{{ .Site.Title | safeHTML }}</h1>
+  {{ if .Site.Title }}
+    <h1>{{ .Site.Title | safeHTML }}</h1>
+  {{ end }}
+
   {{ if .Site.Params.description }}
-    <p class="subtitle">{{ .Site.Params.description | markdownify }}</p>
+    <h2 class="subtitle">{{ .Site.Params.description | markdownify }}</h2>
   {{ end }}
 </header>
 

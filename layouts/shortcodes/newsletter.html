@@ -1,7 +1,7 @@
 <div class="newsletter">
   <script type="text/javascript">var submitted=false;</script>
   <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {
-    window.location.href='#';
+    window.location.href={{.Get "redirect"}};
   }"></iframe>
   <form class="form" action={{.Get "url"}} method="post" target="hidden_iframe" onsubmit="submitted=true;">
     <input class="newsletter-email-input" name="emailAddress" type="email" placeholder="E-mail Address" multiple maxlength=256 required/>
