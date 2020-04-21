@@ -1,7 +1,7 @@
 {{ $dateFormat := "Jan 02, 2006" }}
 
 <header>
-  <h3>
+  <h3 class="listing-item">
     <time>{{ .Date.Format $dateFormat }}</time> &mdash; <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
   </h3>
 </header>

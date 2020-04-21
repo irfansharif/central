@@ -7,7 +7,16 @@
 
     <link rel="canonical" href="{{ .Permalink }}">
 
-    <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+    {{ if .Page.Params.TabName }}
+      <!-- For navigation bar 'posts' -->
+      <title>{{ .Page.Params.TabName }} :: {{ .Site.Title }}</title>
+    {{ else if .Page.Params.Title }}
+      <!-- For single actual posts -->
+      <title>{{ .Page.Params.Title }} :: {{ .Site.Title }}</title>
+    {{ else }}
+      <!-- For top level listings page -->
+      <title>:: {{ .Site.Title }}</title>
+    {{ end }}
 
     <link href="{{ .Site.BaseURL }}css/tufte.css" rel="stylesheet">
     <link href="{{ .Site.BaseURL }}css/latex.css" rel="stylesheet">

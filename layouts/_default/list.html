@@ -1,12 +1,8 @@
 {{ define "main" }}
 
 <header>
-  <!-- {{ if .Site.Title }} -->
-  <!--   <h1>{{ .Site.Title | safeHTML }}</h1> -->
-  <!-- {{ end }} -->
-
   {{ if .Site.Params.description }}
-    <h2 class="custom-header-padding">{{ .Site.Params.description | markdownify }}</h2>
+    <h2 class="listing-title">{{ .Site.Params.description | markdownify }}</h2>
   {{ end }}
 </header>
 
@@ -17,5 +13,3 @@
 </section>
 
 {{ end }}
-
-{{- /* vim: set ts=2 sw=2 et: */}}

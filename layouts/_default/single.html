@@ -2,11 +2,11 @@
 {{ $dateFormat := "January 02, 2006" }}
 
 {{ if .Title }}
-  <h1>{{ .Title | markdownify }}</h1>
+  <h1 class="single-title">{{ .Title | markdownify }}</h1>
 {{ end }}
 
 {{ if .Params.description }} 
-  <p class="subtitle">{{ .Params.description | markdownify }}</p>
+  <p class="subtitle" class="single-description">{{ .Params.description | markdownify }}</p>
 {{ end }}
 
 {{ if .Params.date }}
