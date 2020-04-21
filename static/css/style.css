@@ -40,6 +40,7 @@ h2.listing-title { padding-top: 1rem;
 
 h3.listing-item { width: 55%; }
 
+.katex { font-size: 1.05em; }
 
 /* Within single page content, fix width to the same width as the rest of the
  * content for consistent time alignment */
