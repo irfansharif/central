@@ -18,7 +18,8 @@ h2 { padding-top: 2rem; }
 pre code { font-size: 0.9rem;
            width: 52.5%;
            margin-left: 2.5%;
-           overflow-x: auto; }
+           overflow-x: auto;
+           display: inline-block; }
 
 /* Set background to white instead of default off-white */
 body { background-color: #ffffff; }
@@ -27,6 +28,49 @@ body { background-color: #ffffff; }
  * for section headings. */
 .single-content h1:first-child, h2:first-child, h3:first-child { padding-top: 0rem;
                                                                  margin-top: 1.4rem; }
+
+blockquote p { width: 55%; }
+
+.single-content h2 { width: 55% }
+.single-content h3 { width: 55% }
+.single-content .footnotes { width: 55%; }
+.single-content .footnotes hr { width: 100%; }
+.single-content .footnotes ol li { font-size: 1.0rem;
+                                   line-height: 1.4rem; }
+
+a.footnote-return { background-repeat: no-repeat; }
+.footnote-ref {
+  font-family: et-book-roman-old-style;
+  position: relative;
+  vertical-align: baseline;
+  font-size: 1rem;
+  top: -0.5rem;
+  left: 0.1rem;
+  background-repeat: none;
+  line-height: 0rem;
+}
+.footnote-ref a:link { background-repeat: no-repeat, no-repeat, no-repeat; }
+
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+@media (max-width: 850px) {
+}
+
+.byline { width: 55%;
+          font-size: 1.2rem;
+          font-style: italic;
+          text-align: right; }
+
+h1.single-title { width: 55%; }
+h2.listing-title { padding-top: 1rem;
+                   width: 55%; }
+h3.listing-item { width: 55%; font-size: 1.4rem; line-height: 1rem; }
+h3.listing-item time { font-size: 1.25rem; float: right; }
+
+.katex { font-size: 1.25rem; }
 
 /* Within single page content, fix width to the same width as the rest of the
  * content for consistent time alignment */
@@ -40,65 +84,124 @@ body { background-color: #ffffff; }
            border-bottom: 1px solid #000;
            overflow: hidden; }
 
-.nav-bar ul {
-  list-style-type: none;
-  margin: 0px;
+.nav-bar ul { list-style-type: none;
+              margin: 0px; }
+
+.nav-bar li { float: right;
+              padding: 0 0 0 1.1rem;
+              font-weight: bold;
+              font-size: 1.4rem; }
+
+.newsletter { width: 55%;
+              text-align: left;
+              display: inline-block;
+              float: left; }
+
+.newsletter-email-input{ background-color: white;
+                         border: 1px solid #000;
+                         color: black;
+                         padding: 0 12px 0 12px;
+                         height: 50px;
+                         width: 75%;
+                         text-decoration: none;
+                         text-align: center;
+                         font-size: 16px;
+                         box-sizing: border-box;
+                         font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; }
+
+.newsletter-submit-button { background-color: #d5d5d5;
+                            border: 1px solid #000;
+                            color: black;
+                            padding: 0 0 0 0;
+                            margin-top: 5px;
+                            text-align: center;
+                            text-decoration: underline;
+                            height: 50px;
+                            width: 24.0%;
+                            font-size: 16px;
+                            box-sizing: border-box;
+                            font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; }
+
+.newsletter-submit-button:hover { background-color: #e2e2e2;
+                                  cursor:pointer; }
+
+/* Riffed from https://github.com/remy/permalink */
+h2 .anchor, h3 .anchor { height: 1.5rem;
+                         width: 1rem;
+                         display: block;
+                         padding-right: 1rem;
+                         padding-left: 1rem;
+                         margin-left: -3rem;
+                         cursor: pointer;
+                         position: absolute;
+                         top: 0.2rem;
+                         font-style: normal; }
+h2 .anchor { font-size: 1.5rem; }
+h3 .anchor { font-size: 1.2rem; }
+
+h2 a.anchor { margin-top: 2rem; }
+h2:first-child a.anchor { margin-top: 0rem; }
+
+/* Get rid of the underlines */
+.anchor a:link { background-repeat: no-repeat, no-repeat, no-repeat; }
+h2,h3 { position: relative; }
+h2:hover .anchor span:before,
+h3:hover .anchor span:before {
+  content: "§"; /* Options: • ◦ ∙ */
 }
 
-.nav-bar li {
-  float: right;
-  padding: 0 0 0 1.1rem;
-  font-weight: bold;
-  font-size: 1.4rem;
+p { font-size: 1.25rem;
+    line-height: 1.6rem; }
+figure { margin-bottom: 0; }
+.collapsed-marginnote { font-size: 1.25rem;
+                        display: none; }
+
+.sidenote, .marginnote {
+  margin-bottom: 1rem;
 }
 
-.newsletter {
-  width: 55%;
-  text-align: left;
-  display: inline-block;
-  float: left;
-}
+/* Hide away the permalink icon on short screens */
+@media (max-width: 600px) {
+  h2 .anchor, h3 .anchor {
+    height: 0px;
+    width: 0px;
+  }
 
-.newsletter-email-input{
-  font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-  background-color: white;
-  border: 1px solid #000;
-  color: black;
-  padding: 0 12px 0 12px;
-  height: 50px;
-  width: 250px;
-  text-decoration: none;
-  font-size: 16px;
-  box-sizing: border-box;
-}
-
-.newsletter-submit-button {
-  font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-  background-color: #d5d5d5;
-  border: 1px solid #000;
-  color: black;
-  padding: 0 0 0 0;
-  margin-top: 5px;
-  text-align: center;
-  text-decoration: underline;
-  height:50px;
-  width:90px;
-  font-size: 16px;
-  box-sizing: border-box;
-}
-
-.newsletter-submit-button:hover {
-  background-color: #e2e2e2;
-  cursor:pointer;
+  h2:hover .anchor span:before, h3:hover .anchor span:before { content: ""; }
 }
 
 @media (max-width: 850px) {
   .single-time { width: 100%; }
   .nav-bar { width: 100%; }
   .newsletter { width: 100%; }
+  .byline { width: 100%; }
+  figure { max-width: 100%; }
+  blockquote p { width: 100% }
+  .single-content h2 { width: 100% }
+  .single-content h3 { width: 100% }
+  h1.single-title { width: 100%; }
+  h2.listing-title { width: 100%; }
+  h3.listing-item { width: 100%; }
+  pre code { width: 97%; }
+  .single-content .footnotes { width: 100%; }
+  .marginnote { display: none; }
+  .sup-inline { display: none; }
+  .collapsed-marginnote { font-size: 1.1rem;
+                          display: block;
+                          float: left;
+                          clear: both;
+                          text-align: center;
+                          width: 95%;
+                          margin: 0.25rem 1rem 1rem 1rem;
+                          position: relative; }
 }
 
-@media (max-width: 415px) {
+@media (max-width: 435px) {
   .newsletter-email-input { width: 100%; }
   .newsletter-submit-button { width: 100%; }
+  pre code { width: 97%; }
+}
+
+@media (max-width: 400px) {
+  h3.listing-item time { display: none; }
 }

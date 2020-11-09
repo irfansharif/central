@@ -1,0 +1,63 @@
+/* Gallery styling */
+.gallery {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+
+.gallery .box {
+    flex: 100%;
+    display: flex;
+    padding-bottom: 0.5rem;
+}
+
+/* Figure styling */
+.gallery .box figure {
+    margin-bottom: 0px;
+}
+
+/* Img styling */
+.gallery .box figure img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* Figcaption styling */
+.gallery figcaption,
+.fancy-figure figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    color: #FFF;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    cursor: pointer;
+    max-width: 100%;
+}
+
+figcaption p { font-size: 1.1rem; }
+
+.pswp__caption__center {
+  font-size: 1.1rem;
+  max-width: 80%;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.pswp__button--arrow--left::before, .pswp__button--arrow--right::before {
+  background-color: inherit;
+}
+
+/* Styling for overlay bars */
+.pswp__ui--fit .pswp__top-bar, .pswp__ui--fit .pswp__caption {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.pswp--zoom-allowed .pswp__img {
+    cursor: default !important;
+}

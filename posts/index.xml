@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vivamus dui Arcu</title>
-    <link>https://irfansharif.io/central/</link>
-    <description>Recent content on Vivamus dui Arcu</description>
+    <title>Posts on Vivamus dui Arcu</title>
+    <link>https://irfansharif.io/central/posts/</link>
+    <description>Recent content in Posts on Vivamus dui Arcu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Nov 2020 00:00:00 -0400</lastBuildDate><atom:link href="https://irfansharif.io/central/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Nov 2020 00:00:00 -0400</lastBuildDate><atom:link href="https://irfansharif.io/central/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Curabitur vitae magna</title>
       <link>https://irfansharif.io/central/posts/curabitur-vitae-magna/</link>
@@ -42,25 +42,6 @@
       <guid>https://irfansharif.io/central/posts/nullam-id-varius/</guid>
       <description>Mauris mollis pretium dui in pulvinar. Donec condimentum venenatis semper. Nam posuere lobortis velit, condimentum ullamcorper lectus. Fusce nec est aliquet, scelerisque tellus eu, feugiat nibh. Nullam eget felis magna. Fusce id sodales eros. Etiam sed efficitur odio. Praesent vulputate tempor sem. Sed placerat elit in libero sodales, quis tincidunt orci commodo.
 ▾ &amp;lt;sodoles&amp;gt;/ ▾ efficitur/ quis.eu Vestibulum pretium tristique erat, eget laoreet lorem viverra id. Fusce laoreet metus vel sagittis tempor.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://irfansharif.io/central/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://irfansharif.io/central/about/</guid>
-      <description>About. Nunc tempus, mauris quis convallis vestibulum, dui quam cursus nulla, ut ornare arcu erat vitae mi. Quisque varius porttitor mattis. Donec ornare convallis enim facilisis dignissim. Morbi sit amet tristique odio. Nulla luctus bibendum justo. Nam orci mauris, dapibus at ultricies at, rhoncus vel dolor. Donec at lectus at velit pulvinar bibendum vel nec arcu. Ut viverra luctus velit nec tincidunt. Donec hendrerit, nulla sit amet rhoncus rutrum, orci est sodales ligula, quis malesuada lacus felis non leo.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://irfansharif.io/central/newsletter/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://irfansharif.io/central/newsletter/</guid>
-      <description> Newsletter. Curabitur molestie, dolor scelerisque volutpat efficitur, risus mauris feugiat mauris, id gravida libero nunc vitae lorem. Etiam sollicitudin convallis nibh, nec ultricies metus aliquet nec. Aliquam erat volutpat.
-var submitted=false;  Subscribe   </description>
     </item>
     
   </channel>
