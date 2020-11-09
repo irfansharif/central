@@ -15,3 +15,7 @@ Edward Tufte-esque Hugo Theme. Fork of alanorth/hugo-theme-tufte-css.
 ---
 
 <img width="1249" alt="image" src="https://user-images.githubusercontent.com/10536690/48249295-6f3f4700-e3af-11e8-9858-346a72504808.png">
+
+---
+
+To test it out locally, run `hugo server -D` within the example site dir.

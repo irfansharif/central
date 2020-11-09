@@ -6,12 +6,13 @@ date = 2019-03-26T00:00:00
 ## Donec vehicula massa mi
 
 Nunc tempus, mauris quis convallis vestibulum, dui quam cursus nulla, ut ornare
-arcu erat vitae mi. Quisque varius porttitor mattis. Donec ornare convallis
-enim facilisis dignissim. Morbi sit amet tristique odio. Nulla luctus bibendum
-justo. Nam orci mauris, dapibus at ultricies at, rhoncus vel dolor. Donec at
-lectus at velit pulvinar bibendum vel nec arcu. Ut viverra luctus velit nec
-tincidunt. Donec hendrerit, nulla sit amet rhoncus rutrum, orci est sodales
-ligula, quis malesuada lacus felis non leo.
+arcu erat vitae mi. [Quisque]({{< ref "#cras-sem-est" >}} "viverra luctus")
+porttitor mattis. Donec ornare convallis enim facilisis dignissim. Morbi sit
+amet tristique odio. Nulla luctus bibendum justo. Nam orci mauris, dapibus at
+ultricies at, rhoncus vel dolor. Donec at lectus at velit pulvinar bibendum vel
+nec arcu. Ut viverra luctus velit nec tincidunt. Donec hendrerit, nulla sit
+amet rhoncus rutrum, orci est sodales ligula, quis malesuada lacus felis non
+leo[^1].
 
 Vivamus in arcu volutpat:
 
@@ -54,3 +55,6 @@ magnis dis parturient montes, nascetur ridiculus mus. Pellentesque habitant
 morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam et
 lectus luctus turpis condimentum consequat nec sit amet turpis. Sed et enim ut
 massa accumsan maximus.
+
+[^1]: Nam rutrum dolor erat, id suscipit ex efficitur in. Duis vitae dolor
+vitae nisl blandit tristique non volutpat arcu.

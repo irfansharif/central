@@ -95,6 +95,31 @@ h3.listing-item { width: 55%; }
 .newsletter-submit-button:hover { background-color: #e2e2e2;
                                   cursor:pointer; }
 
+/* Riffed from https://github.com/remy/permalink */
+.anchor { height: 30px;
+          width: 20px;
+          display: block;
+          padding-right: 10px;
+          margin-left: -30px;
+          cursor: pointer;
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          height: 100%; }
+
+h2 a.anchor { margin-top: 2rem; }
+h2:first-child a.anchor { margin-top: 0rem; }
+
+/* Get rid of the underline */
+a:link.anchor { background-repeat: no-repeat, no-repeat, no-repeat }
+
+h2,h3 { position: relative; }
+h2:hover .anchor span:before,
+h3:hover .anchor span:before { content: "#";
+                               position: absolute;
+                               left: 0px;
+                               top: 0px; }
+
 @media (max-width: 850px) {
   .single-time { width: 100%; }
   .nav-bar { width: 100%; }
@@ -103,9 +128,11 @@ h3.listing-item { width: 55%; }
   h1.single-title { width: 100%; }
   h2.listing-title { width: 100%; }
   h3.listing-item { width: 100%; }
+  pre code { width: 97%; }
 }
 
 @media (max-width: 435px) {
   .newsletter-email-input { width: 100%; }
   .newsletter-submit-button { width: 100%; }
+  pre code { width: 97%; }
 }

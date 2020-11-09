@@ -5,6 +5,8 @@ canonifyURLs = "true"
 languageCode = "en-us"
 title = "Vivamus dui Arcu"
 theme = "central"
+[markup]
+  defaultMarkdownHandler = "blackfriday"
 
 [permalinks]
   post = "/:year/:month/:title/"

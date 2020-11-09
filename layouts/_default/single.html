@@ -3,9 +3,12 @@
 
 {{ if .Title }}
   <h1 class="single-title">{{ .Title | markdownify }}</h1>
+  <!-- We only load the permalink script if we're a blog post (approximated by
+   the Title field being defined -->
+  <script defer src="{{ .Site.BaseURL }}js/permalink.js"></script>
 {{ end }}
 
-{{ if .Params.description }} 
+{{ if .Params.description }}
   <p class="subtitle" class="single-description">{{ .Params.description | markdownify }}</p>
 {{ end }}
 
