@@ -142,13 +142,13 @@ tempus suscipit.
 type="checkbox" id="mn-exports-imports" class="margin-toggle"/><span
 class="marginnote">Ferminan Acialo Navifatio, <em>Curabitur Odio Velit</em>,
 nate 92.</span>
-<img src="/img/exports-imports.png" alt=" Curabitur tincidunt facilisis lorem,
+<img src="/img/exports-imports.jpg" alt=" Curabitur tincidunt facilisis lorem,
 in aliquam erat 1700 fi 1780" />
 </figure>
 
 <label for="mn-figure-1" class="margin-toggle">&#8853;</label><input
 type="checkbox" id="mn-figure-1" class="margin-toggle"/><span
-class="marginnote"><img src="/img/rhino.png" alt="Conubia Nostra Per
+class="marginnote"><img src="/img/rhino.jpg" alt="Conubia Nostra Per
 Inceptos"/> I.J. Vitiole, “Fa Maecenas Nec Placerat Est Aenean,” <em>
 Cras Nec Tortor Wacilisis, Ultricies Mi Suscipit
 </em> (Ipsum, 1953), ed. E. Miagiala Nitialla, 337-356. Vias
@@ -158,7 +158,7 @@ ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
 inceptos himenaeos. Quisque porta diam orci, eu rhoncus lectus venenatis a.
 
 <figure class="fullwidth">
-<img src="/img/napoleons-march.png" alt="Donec blandit venenatis nunc, ut
+<img src="/img/napoleons-march.jpg" alt="Donec blandit venenatis nunc, ut
 sollicitudin ligula sodales id, 1812-1813" />
 </figure>
 
@@ -170,7 +170,7 @@ viverra vestibulum. Donec a pharetra elit, quis placerat nunc. Quisque et
 fringilla libero, at imperdiet mi. Phasellus feugiat ipsum lacus. Nulla ut
 finibus quam:
 
-<figure class="fullwidth"><img src="/img/imagequilt-chinese-calligraphy.png" alt="Fushia dapibues bonquel"/></figure>
+<figure class="fullwidth"><img src="/img/imagequilt-chinese-calligraphy.jpg" alt="Fushia dapibues bonquel"/></figure>
 
 Quisque quis scelerisque massa. Nunc pharetra magna vel pulvinar tincidunt.
 Fusce placerat ipsum massa, non rhoncus dolor euismod ac. Phasellus tempor
@@ -178,4 +178,4 @@ dapibus congue. Sed lacinia, libero vel dapibus eleifend, leo nisi tincidunt
 eros, non condimentum ligula sapien a dui. Proin ultricies lectus non leo
 tempus, in tempus est ullamcorper.
 
-<figure><img src="/img/imagequilt-animal-sounds.png" alt="Send Lacinia, Sapien a Dui"/></figure>
+<figure><img src="/img/imagequilt-animal-sounds.jpg" alt="Send Lacinia, Sapien a Dui"/></figure>

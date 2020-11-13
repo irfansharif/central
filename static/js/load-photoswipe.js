@@ -17,11 +17,12 @@ $( document ).ready(function() {
         $img    = $figure.find('img'),
         $src    = $a.attr('href'),
         $title  = $img.attr('alt'),
-        $msrc   = $img.attr('src');
+        $msrc   = $img.attr('src'),
+        $div    = $figure.find('div');
 
-    if ($a.data('size')) {
-      // If data-size on <a> tag is set, read it and create an item.
-      var $size   = $a.data('size').split('x');
+    if ($div.attr('data-size')) {
+      // If data-size on <figure> tag is set, read it and create an item.
+      var $size   = $div.attr('data-size').split('x');
       var item = {
         src   : $src,
         w     : $size[0],
