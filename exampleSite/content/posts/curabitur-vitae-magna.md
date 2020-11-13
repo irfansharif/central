@@ -17,9 +17,9 @@ ac turpis egestas.
 {{< load-photoswipe >}}
 
 {{< gallery hover-effect="none" caption-effect="none" >}}
-  {{< figure link="/img/rhino.png" caption="Send Lacinia, sapien a dui">}}
-  {{< figure link="/img/imagequilt-chinese-calligraphy.png" caption="Et malesuada fames ac turpis egestas">}}
-  {{< figure link="/img/exports-imports.png" caption="Tristique senectus et netus et malesuada">}}
+  {{< figure src="img/rhino.png" thumb="img/thumb/rhino-thumb.png" caption="Send Lacinia, sapien a dui">}}
+  {{< figure src="img/imagequilt-chinese-calligraphy.png" thumb="img/thumb/imagequilt-chinese-calligraphy-thumb.png" caption="Et malesuada fames ac turpis egestas">}}
+  {{< figure src="img/exports-imports.png" thumb="img/thumb/exports-imports-thumb.png" caption="Tristique senectus et netus et malesuada">}}
 {{< /gallery >}}
 
 Nulla varius sem nec sem fringilla facilisis. Orci varius natoque penatibus et
@@ -36,10 +36,10 @@ dui.
 
 <label for="mn-blue-links" class="margin-toggle">&#8853;</label><input
 type="checkbox" id="mn-blue-links" class="margin-toggle"/><span
-class="marginnote">Aliquam erat volutpat.  Pellentesque elementum quis dolor
+class="marginnote">Aliquam erat volutpat. Pellentesque elementum quis dolor
 sed aliquam. Duis efficitur pellentesque ligula non scelerisque.</span>
 {{< gallery hover-effect="none" caption-effect="none" >}}
-  {{< figure src="/img/napoleons-march.png" caption="Aliquam erat volutpat.  Pellentesque elementum quis dolor sed aliquam. Duis efficitur pellentesque ligula non scelerisque" >}}
+  {{< figure src="img/napoleons-march.png" thumb="img/thumb/napoleons-march-thumb.png" caption="Aliquam erat volutpat.  Pellentesque elementum quis dolor sed aliquam. Duis efficitur pellentesque ligula non scelerisque" >}}
 {{< /gallery >}}
 
 Nam rutrum dolor erat, id suscipit ex efficitur in. Duis vitae dolor
