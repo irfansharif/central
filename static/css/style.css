@@ -33,6 +33,9 @@ blockquote p { width: 55%; }
 
 .single-content h2 { width: 55% }
 
+.single-content .footnotes { width: 55%; }
+.single-content .footnotes ol li { font-size: 1.1rem; }
+
 h1.single-title { width: 55%; }
 
 h2.listing-title { padding-top: 1rem;
@@ -139,6 +142,7 @@ h3:hover .anchor span:before {
   h2.listing-title { width: 100%; }
   h3.listing-item { width: 100%; }
   pre code { width: 97%; }
+  .single-content .footnotes { width: 100%; }
 }
 
 @media (max-width: 435px) {
