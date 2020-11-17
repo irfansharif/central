@@ -32,15 +32,16 @@ body { background-color: #ffffff; }
 blockquote p { width: 55%; }
 
 .single-content h2 { width: 55% }
-
 .single-content .footnotes { width: 55%; }
-.single-content .footnotes ol li { font-size: 1.1rem; }
+.single-content .footnotes ol li { font-size: 1.1rem;
+                                   line-height: 1.6rem; }
+
+a.footnote-return { background-repeat: no-repeat; }
+.footnote-ref { line-height: 0rem; }
 
 h1.single-title { width: 55%; }
-
 h2.listing-title { padding-top: 1rem;
                    width: 55%; }
-
 h3.listing-item { width: 55%; }
 
 .katex { font-size: 1.05em; }
@@ -119,7 +120,7 @@ h2:first-child a.anchor { margin-top: 0rem; }
 a:link.anchor { background-repeat: no-repeat, no-repeat, no-repeat; }
 h2,h3 { position: relative; }
 h2:hover .anchor span:before,
-h3:hover .anchor span:before { 
+h3:hover .anchor span:before {
   content: "§"; /* Options: • ◦ ∙ */
 }
 
