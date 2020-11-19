@@ -18,6 +18,12 @@
 
 <section class="single-content">
   {{ .Content }}
+
+  {{ if .Title }}
+  <!-- We only load the footer script if we're a blog post (approximated by
+   the Title field being defined -->
+    {{ partial "footer.html" . }}
+  {{ end }}
 </section>
 {{ end }}
 
