@@ -1,0 +1,15 @@
+#!/bin/sh
+
+set -euxo pipefail
+
+cd exampleSite
+hugo -d ../../public
+cd ..
+git checkout gh-pages
+rm -r *
+cp -r ../public/* .
+rm -r ../public
+git add --all
+git commit --amend
+git push -f
+git checkout master

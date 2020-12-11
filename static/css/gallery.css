@@ -45,9 +45,12 @@ figcaption p { font-size: 1.1rem; }
   font-size: 1.1rem;
   max-width: 80%;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.4);
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.pswp__button--arrow--left::before, .pswp__button--arrow--right::before {
+  background-color: inherit;
 }
 
 /* Styling for overlay bars */
