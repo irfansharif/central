@@ -34,13 +34,17 @@ Integer sed lobortis mauris. Proin non dolor tincidunt, venenatis justo id,
 eleifend neque. Curabitur et felis viverra, porttitor libero vitae, commodo
 dui.
 
-<label for="mn-blue-links" class="margin-toggle">&#8853;</label><input
-type="checkbox" id="mn-blue-links" class="margin-toggle"/><span
-class="marginnote">Aliquam erat volutpat. Pellentesque elementum quis dolor
-sed aliquam. Duis efficitur pellentesque ligula non scelerisque.</span>
+<span class="marginnote">
+Aliquam erat volutpat. Pellentesque elementum quis dolor
+sed aliquam. Duis efficitur pellentesque ligula non scelerisque.
+</span>
 {{< gallery hover-effect="none" caption-effect="none" >}}
   {{< figure src="img/napoleons-march.jpg" size="2560x1262" thumb="img/thumb/napoleons-march-thumb.jpg" caption="Aliquam erat volutpat.  Pellentesque elementum quis dolor sed aliquam. Duis efficitur pellentesque ligula non scelerisque" >}}
 {{< /gallery >}}
+<span class="collapsed-marginnote">
+Aliquam erat volutpat. Pellentesque elementum quis dolor
+sed aliquam. Duis efficitur pellentesque ligula non scelerisque.
+</span>
 
 Nam rutrum dolor erat, id suscipit ex efficitur in. Duis vitae dolor
 vitae nisl blandit tristique non volutpat arcu.

@@ -32,24 +32,26 @@ body { background-color: #ffffff; }
 blockquote p { width: 55%; }
 
 .single-content h2 { width: 55% }
+.single-content h3 { width: 55% }
 .single-content .footnotes { width: 55%; }
-.single-content .footnotes ol li { font-size: 1.1rem;
-                                   line-height: 1.6rem; }
+.single-content .footnotes ol li { font-size: 1.0rem;
+                                   line-height: 1.4rem; }
 
 a.footnote-return { background-repeat: no-repeat; }
 .footnote-ref { line-height: 0rem; }
 
 .byline { width: 55%; 
-          font-size: 1.4rem;
+          font-size: 1.2rem;
           font-style: italic;
           text-align: right; }
 
 h1.single-title { width: 55%; }
 h2.listing-title { padding-top: 1rem;
                    width: 55%; }
-h3.listing-item { width: 55%; }
+h3.listing-item { width: 55%; font-size: 1.4rem; line-height: 1rem; }
+h3.listing-item time { font-size: 1.25rem; float: right; }
 
-.katex { font-size: 1.05em; }
+.katex { font-size: 1.25rem; }
 
 /* Within single page content, fix width to the same width as the rest of the
  * content for consistent time alignment */
@@ -121,13 +123,18 @@ h3 .anchor { font-size: 1.2rem; }
 h2 a.anchor { margin-top: 2rem; }
 h2:first-child a.anchor { margin-top: 0rem; }
 
-/* Get rid of the underline */
-a:link.anchor { background-repeat: no-repeat, no-repeat, no-repeat; }
+/* Get rid of the underlines */
+.anchor a:link, .anchor a:link { background-repeat: no-repeat, no-repeat, no-repeat; }
 h2,h3 { position: relative; }
 h2:hover .anchor span:before,
 h3:hover .anchor span:before {
   content: "§"; /* Options: • ◦ ∙ */
 }
+
+p { font-size: 1.25rem;
+    line-height: 1.6rem; }
+figure { margin-bottom: 0; }
+.collapsed-marginnote { display: none; }
 
 /* Hide away the permalink icon on short screens */
 @media (max-width: 600px) {
@@ -144,12 +151,24 @@ h3:hover .anchor span:before {
   .nav-bar { width: 100%; }
   .newsletter { width: 100%; }
   .byline { width: 100%; }
+  figure { max-width: 100%; }
+  blockquote p { width: 100% }
   .single-content h2 { width: 100% }
+  .single-content h3 { width: 100% }
   h1.single-title { width: 100%; }
   h2.listing-title { width: 100%; }
   h3.listing-item { width: 100%; }
   pre code { width: 97%; }
   .single-content .footnotes { width: 100%; }
+  label.margin-toggle:not(.sidenote-number) { display: none; }
+  .marginnote { display: none; }
+  .collapsed-marginnote { display: block;
+                          float: left;
+                          clear: both;
+                          text-align: center;
+                          width: 95%;
+                          margin: 1rem;
+                          position: relative; }
 }
 
 @media (max-width: 435px) {

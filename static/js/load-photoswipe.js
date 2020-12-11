@@ -67,7 +67,7 @@ $( document ).ready(function() {
       // Ref: https://photoswipe.com/documentation/options.html.
       var options = {
         index: index,
-        bgOpacity: 0.85,
+        bgOpacity: 0.95,
         showHideOpacity: false,
         showAnimationDuration: 0,
         hideAnimationDuration: 0,
