@@ -22,7 +22,8 @@ pre code { font-size: 0.9rem;
            display: inline-block; }
 
 /* Set background to white instead of default off-white */
-body { background-color: #ffffff; }
+:root { --page-background-color: #ffffff; }
+@media (prefers-color-scheme: dark) { :root { --page-background-color: #222222; } }
 
 /* Within single page content, Tufte by default introduces additional spacing
  * for section headings. */
@@ -62,7 +63,7 @@ h3.listing-item time { font-size: 1.25rem; float: right; }
 
 .nav-bar { width: 55%;
            height: 2.5rem;
-           border-bottom: 1px solid #000;
+           border-bottom: 1px solid var(--text-color);
            overflow: hidden; }
 
 .nav-bar ul { list-style-type: none;
