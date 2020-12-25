@@ -1,0 +1,9 @@
+<!-- Cribbed from hugo's embedded twitter template. -->
+
+{{ with $.Params.preview }}
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:image" content="{{ . | absURL }}"/>
+{{ end }}
+
+<meta name="twitter:title" content="{{ .Title }}"/>
+<meta name="twitter:description" content="{{ .Summary }}"/>

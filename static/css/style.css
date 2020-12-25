@@ -40,7 +40,7 @@ blockquote p { width: 55%; }
 a.footnote-return { background-repeat: no-repeat; }
 .footnote-ref { line-height: 0rem; }
 
-.byline { width: 55%; 
+.byline { width: 55%;
           font-size: 1.2rem;
           font-style: italic;
           text-align: right; }
@@ -134,7 +134,8 @@ h3:hover .anchor span:before {
 p { font-size: 1.25rem;
     line-height: 1.6rem; }
 figure { margin-bottom: 0; }
-.collapsed-marginnote { display: none; }
+.collapsed-marginnote { font-size: 1.25rem;
+                        display: none; }
 
 /* Hide away the permalink icon on short screens */
 @media (max-width: 600px) {
@@ -162,12 +163,13 @@ figure { margin-bottom: 0; }
   .single-content .footnotes { width: 100%; }
   label.margin-toggle:not(.sidenote-number) { display: none; }
   .marginnote { display: none; }
-  .collapsed-marginnote { display: block;
+  .collapsed-marginnote { font-size: 1.1rem;
+                          display: block;
                           float: left;
                           clear: both;
                           text-align: center;
                           width: 95%;
-                          margin: 1rem;
+                          margin: 0.25rem 1rem 1rem 1rem;
                           position: relative; }
 }
 

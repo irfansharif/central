@@ -27,6 +27,10 @@
     <link href="{{ .Site.BaseURL }}css/latex.css" rel="stylesheet">
     <link href="{{ .Site.BaseURL }}css/style.css" rel="stylesheet"> <!-- For custom overrides. -->
     <link rel="icon" href="/favicon.ico">
+
+    {{ partial "analytics.html" . }}
+    {{ partial "open-graph.html" . }}
+    {{ partial "twitter.html" . }}
   </head>
 
   <div class="nav-bar">

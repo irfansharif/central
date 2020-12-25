@@ -1,0 +1,18 @@
+<!-- Cribbed from hugo's embedded open graph template. -->
+
+<meta property="og:title" content="{{ .Title }}" />
+<meta property="og:description" content="{{ .Summary }}"/>
+<meta property="og:type" content="article" />
+<meta property="og:url" content="{{ .Permalink }}" />
+{{ with $.Params.preview }}
+  <meta property="og:image" content="{{ . | absURL }}" />
+{{ end }}
+
+{{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
+{{- if .IsPage }}
+  {{ if not .Date.IsZero }}
+    <meta property="article:published_time" {{ .Date.Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />
+  {{ end }}
+{{ end }}
+
+<meta property="og:site_name" content="{{ .Site.Params.title }}" />
