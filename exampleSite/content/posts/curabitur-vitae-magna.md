@@ -48,3 +48,5 @@ sed aliquam. Duis efficitur pellentesque ligula non scelerisque.
 
 Nam rutrum dolor erat, id suscipit ex efficitur in. Duis vitae dolor
 vitae nisl blandit tristique non volutpat arcu.
+
+[^ref]: Duis efficitur pellentesque ligula non scelerisque.
