@@ -1,0 +1,17 @@
+{{ define "main" }}
+{{ $dateFormat := "January 02, 2006" }}
+
+
+<section class="single-content">
+  {{ if .Title }}
+    <h2>{{ .Title | markdownify }}</h2>
+  {{ end }}
+  {{ if .Params.date }}
+    <p class="single-time"><time>{{ .Date.Format $dateFormat}}</time></p>
+  {{ end }}
+
+  {{ .Content }}
+</section>
+{{ end }}
+
+{{- /* vim: set ts=2 sw=2 et: */}}

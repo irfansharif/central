@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+<header>
+  {{ if .Site.Params.description }}
+    <h2 class="listing-title">{{ .Site.Params.description | markdownify }}</h2>
+  {{ end }}
+</header>
+
+<section>
+  {{ range (where (where .Site.Pages "Type" "posts") "IsPage" true) }}
+    {{ .Render "item" }}
+  {{ end }}
+</section>
+
+{{ end }}
