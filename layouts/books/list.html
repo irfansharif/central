@@ -1,24 +1,44 @@
 {{ define "main" }}
 {{ $dateFormat := "January 02, 2006" }}
 
-<!-- Keep in sync with h3.listing-item --> 
+<!-- Keep in sync with h3.listing-item, and roughly aligned with top-level post -->
+<!-- Maybe worth moving outside this theme. Could also annotate headers with
+  class, and define styling on the class itself. -->
 <style>
-  h3 { 
-    width: 55%; 
-    font-size: 1.4rem; 
-    line-height: 1rem; 
-    padding-top: 0rem; 
+  h3 {
+    width: 55%;
+    font-size: 1.4rem;
+    line-height: 1rem;
+    padding-top: 0rem;
     margin-top: 1.4rem;
   }
-  h3 time { font-size: 1.25rem; float: right; }
+  h3 rating { font-size: 1.25rem; float: right; }
   @media (max-width: 850px) {
-    h3.listing-item { width: 100%; }
+    h3 { width: 100%; }
   }
 
+  section ul {
+    width: 52%;
+  }
+  section ul li {
+    width: 100%;
+    font-size: 1.4rem;
+    line-height: 1rem;
+    padding-top: 0rem;
+    margin-top: 1.4rem;
+    font-style: italic;
+    padding-right: 0rem;
+  }
+  section ul li rating { font-size: 1.25rem; float: right; }
+  @media (max-width: 850px) {
+    h3 { width: 100%; }
+  }
 </style>
+
 <section class="single-content">
   {{ .Content }}
 </section>
+
 {{ end }}
 
 {{- /* vim: set ts=2 sw=2 et: */}}
