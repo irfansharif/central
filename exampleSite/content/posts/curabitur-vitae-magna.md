@@ -5,14 +5,34 @@ date = 2020-11-01T00:00:00
 
 ## Lacinia Sed Condimentum
 
-Ut semper vulputate auctor. Sed elit ante, pellentesque non enim at, lobortis
+Ut semper vulputate auctor[^ref]. Sed elit ante, pellentesque non enim at, lobortis
 semper lacus. Mauris felis turpis, convallis ut felis fermentum, tincidunt
 porttitor urna. Integer sed lobortis mauris. Proin non dolor tincidunt,
 venenatis justo id, eleifend neque. Curabitur et felis viverra, porttitor
-libero vitae, commodo dui. Nulla varius sem nec sem fringilla facilisis. Orci
+libero vitae, commodo dui. Nulla varius<sup class="sup-inline">&dagger;</sup><label for="another-named-reference" class="margin-toggle"><sup>&dagger;</sup></label>
+<input type="checkbox" id="another-named-reference" class="margin-toggle"/>
+<span class="marginnote">
+<sup>&dagger;</sup> Nulla varius sem nec sem fringilla facilisis. Orci varius
+natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+turpis egestas.
+</span>
+sem nec sem fringilla facilisis. Orci
 varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus
 mus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames
 ac turpis egestas.
+
+Mauris mollis pretium dui in pulvinar. Donec condimentum venenatis semper. Nam
+posuere lobortis velit, condimentum ullamcorper lectus. Fusce nec est aliquet,
+scelerisque tellus eu, feugiat nibh. Nullam eget felis magna. Fusce id sodales
+eros. Etiam sed efficitur odio. Praesent vulputate tempor sem. Sed placerat
+elit in libero sodales, quis tincidunt orci commodo.
+
+Fusce posuere aliquam urna, eget rhoncus eros ultricies eu. Vestibulum eu
+dignissim tortor. Pellentesque malesuada mi non lorem volutpat molestie.
+Phasellus tortor mi, scelerisque a bibendum non, imperdiet id ligula. Nam et
+euismod velit. In ac pharetra turpis, ut congue lectus. Aliquam erat volutpat.
+Pellentesque elementum quis dolor sed aliquam.
 
 {{< load-photoswipe >}}
 

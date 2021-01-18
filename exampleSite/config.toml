@@ -5,7 +5,7 @@ canonifyURLs = "true"
 languageCode = "en-us"
 title = "Vivamus dui Arcu"
 theme = "central"
-footnoteReturnLinkContents = "↩"
+footnoteReturnLinkContents = "⤻" # Options: ↩
 
 [markup]
   defaultMarkdownHandler = "blackfriday"
