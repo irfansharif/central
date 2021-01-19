@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="canonical" href="{{ .Permalink }}">
+    <title>:: {{ .Site.Title }}</title>
+
+    <link href="{{ .Site.BaseURL }}css/home.css" rel="stylesheet" >
+    <link rel="icon" href="/favicon.ico">
+
+    {{ partial "analytics.html" . }}
+    {{ partial "open-graph.html" . }}
+    {{ partial "twitter.html" . }}
+  </head>
+
+  <body>
+    {{ block "main" . }}
+    {{ end }}
+  </body>
+</html>
+
+{{- /* vim: set ts=2 sw=2 et: */}}
