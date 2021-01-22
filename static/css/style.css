@@ -65,10 +65,21 @@ sup, sub {
           text-align: right; }
 
 h1.single-title { width: 55%; }
+.listing { width: 55%; margin-top: 1rem; margin-bottom: 1rem; font-style: italic; }
 h2.listing-title { padding-top: 1rem;
                    width: 55%; }
-h3.listing-item { width: 55%; font-size: 1.4rem; line-height: 1rem; }
-h3.listing-item time { font-size: 1.25rem; float: right; }
+h3.listing-item { font-size: 1.4rem;
+                  line-height: 1.4rem;
+                  margin-top: 0rem;
+                  margin-bottom: 0rem;
+                  padding-top: 0rem;
+                  padding-bottom: 0rem;
+                  max-width: 70%;
+                  position: relative;
+                  font-weight: 400;
+                  display: inline-block; }
+.listing-time { font-size: 1.25rem;
+                float: right; }
 
 .katex { font-size: 1.25rem; }
 
@@ -175,6 +186,7 @@ figure { margin-bottom: 0; }
   .nav-bar { width: 100%; }
   .newsletter { width: 100%; }
   .byline { width: 100%; }
+  .listing { width: 100%; }
   figure { max-width: 100%; }
   blockquote p { width: 100% }
   .single-content h2 { width: 100% }
@@ -200,8 +212,4 @@ figure { margin-bottom: 0; }
   .newsletter-email-input { width: 100%; }
   .newsletter-submit-button { width: 100%; }
   pre code { width: 97%; }
-}
-
-@media (max-width: 400px) {
-  h3.listing-item time { display: none; }
 }

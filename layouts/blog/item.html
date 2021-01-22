@@ -1,9 +1,12 @@
 {{ $dateFormat := "Jan 02, 2006" }}
 
 <header>
-  <h3 class="listing-item">
-    <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a> <time>{{ .Date.Format $dateFormat }}</time>
-  </h3>
+  <div class="listing">
+    <h3 class="listing-item">
+      <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+    </h3>
+    <time class="listing-time">{{ .Date.Format $dateFormat }}</time>
+  </div>
 </header>
 
 {{- /* vim: set ts=2 sw=2 et: */}}
