@@ -1,7 +1,42 @@
-{{ define "main"}}
-  <h1>Sorry, this page isn't available.</h1>
-  <p class="subtitle">
-    The link you followed may be broken, or the page removed.
-    <a href="{{ "/" | relURL }}">Go to home page.</a>
-  </p>
-{{ end }}
+<!DOCTYPE html>
+<html lang="{{ .Lang }}">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="canonical" href="{{ .Permalink }}">
+    <!-- For top level listings page -->
+    <title>404 :: {{ .Site.Title }}</title>
+
+    <link href="{{ .Site.BaseURL }}css/tufte.css" rel="stylesheet">
+    <link href="{{ .Site.BaseURL }}css/latex.css" rel="stylesheet">
+    <link href="{{ .Site.BaseURL }}css/style.css" rel="stylesheet"> <!-- For custom overrides. -->
+    <link href="{{ .Site.BaseURL }}css/custom.css" rel="stylesheet"> <!-- For custom overrides. -->
+    <link rel="icon" href="/favicon.ico">
+
+    {{ partial "analytics.html" . }}
+    {{ partial "open-graph.html" . }}
+    {{ partial "twitter.html" . }}
+  </head>
+
+  <div class="nav-bar">
+    <ul>
+      <li><a href="{{ "meta" | relURL }}">Meta</a></li>
+      <li><a href="{{ "newsletter" | relURL }}">Newsletter</a></li>
+      <li><a href="{{ "blog" | relURL }}">Blog</a></li>
+    </ul>
+  </div>
+
+  <body>
+      <section class="single-content">
+      <h2>Sorry, this page isn't available.</h2>
+
+      <h3>
+        The link you followed may be broken, or the page removed. Go back?
+      </h3>
+      </section>
+  </body>
+</html>
+
+{{- /* vim: set ts=2 sw=2 et: */}}
