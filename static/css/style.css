@@ -161,8 +161,9 @@ h3:hover .anchor span:before {
   content: "§"; /* Options: • ◦ ∙ */
 }
 
-p { font-size: 1.25rem;
+p, ul { font-size: 1.25rem;
     line-height: 1.6rem; }
+ul { line-height: 1.7rem; }
 figure { margin-bottom: 0; }
 .collapsed-marginnote { font-size: 1.25rem;
                         display: none; }
